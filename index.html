@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
+    <style>
+        p {
+          word-wrap: break-word;
+        }
+      </style>
 	<title>postprivat</title>
 	<style>
-	  
 		body {
 			margin: 0;
 			padding: 0;
@@ -39,29 +42,52 @@
 		
 		#content p {
 			max-width: 700px;
-			padding: 10px;
+			padding: 50px;
 			font-size: 18px;
 			line-height: 1.5;
 			text-align: center;
-			width: 80%
+            width: 80%
 		}
+		#image {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+			padding-right: 15px;
+			padding-bottom: 10px;
+        }
+        
+        #image img {
+            width: 300px;
+            height: auto;
+        }
+		#xxm {
+        position: absolute;
+		top: 0;
+		right: 0;
+        padding-top: 20px;
+		padding-right: 10px;
+		}
+
 	</style>
 </head>
 <body>
 	<div id="header">
 		<img src="rr2.png" alt="My Logo">
 		<h1>Skicka paket privat inom Stockholm</h1>
+	
+		<div id="xxm">
+		<img src="xmr.png" alt="Logo 2">
+	</div>
 	</div>
 	<div id="content">
 		<img src="download.png" alt="My Picture">
 		<p> <span style="color: rgb(28, 134, 33);">05379427c46f1a26227a74ba012cdc2f18d21651802fb258036feb3e606b4be77d</span><br>
             Skanna qr-koden med din Session app eller kopiera för att skicka ditt paket. Postprivat tar betalning i XMR(Monero) </p>
 	</div>
+	<div id="image">
+        <img src="sess.png" alt="Lower Right Image">
 </body>
 </html>
-  <style>
-        p {
-          word-wrap: break-word;
-        }
-      </style>
-
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Page Title</title>
